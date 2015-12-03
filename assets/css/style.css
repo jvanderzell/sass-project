@@ -1,3 +1,5 @@
+/*variable partial*/
+/*main page content partial*/
 h1 {
   text-align: center;
   border-bottom: double 5px blue;
@@ -15,6 +17,7 @@ p {
   font-size: 32px;
   font-weight: bold; }
 
+/*I still don't fully understand nesting especially when it comes to styles applying when anchor tags are involveed */
 div {
   text-align: center; }
   div ul {
