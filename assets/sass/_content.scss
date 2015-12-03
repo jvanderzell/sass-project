@@ -1,0 +1,37 @@
+h1 {
+	text-align: center;
+	border-bottom: $border;
+	color: #1F5B83;
+}
+
+
+p {
+	font-family: $font-family;
+	font-size: $font-size;
+}
+	.important {
+		background-color: $background;
+		color: $font-color;
+	}
+		.very-important {   
+			@extend .important;   
+			font-size: 32px; 
+			font-weight: bold;
+		}
+
+
+div {
+	text-align:center;
+		ul {
+		margin: 0px;
+			li {
+				display: inline;
+				margin: 10px;
+				font-size: 24px;
+				color: #1F5B83;
+			}
+			a:hover {
+				color: yellow;
+			}
+		}
+}

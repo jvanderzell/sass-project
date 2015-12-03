@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+  border-bottom: double 5px blue;
+  color: #1F5B83; }
+
+p {
+  font-family: Times;
+  font-size: 24px; }
+
+.important, .very-important {
+  background-color: #e8eef2;
+  color: #789CB4; }
+
+.very-important {
+  font-size: 32px;
+  font-weight: bold; }
+
+div {
+  text-align: center; }
+  div ul {
+    margin: 0px; }
+    div ul li {
+      display: inline;
+      margin: 10px;
+      font-size: 24px;
+      color: #1F5B83; }
+    div ul a:hover {
+      color: yellow; }
+
+/*# sourceMappingURL=style.css.map */
